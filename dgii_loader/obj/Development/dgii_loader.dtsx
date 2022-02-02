@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{CA8049CA-C4E8-4F18-ADF4-C752A11E8124}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{74ADB869-C572-4F2D-BB64-9F9AFB5E897D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -171,7 +171,6 @@
       DTS:refId="Package\LOADER"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{C61DE60D-47B9-4233-8DDD-D9986132AAFD}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -200,77 +199,77 @@
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Column 4"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[Column 5]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Column 5"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[Column 6]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Column 6"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[Column 7]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Column 7"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[id_rnc]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="250"
                       cachedName="id_rnc"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[nombre]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="250"
                       cachedName="nombre"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nombre]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nombre]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[nom_legal]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="250"
                       cachedName="nom_legal"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[actividad]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="250"
                       cachedName="actividad"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[actividad]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[actividad]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[fecha]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="250"
                       cachedName="fecha"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[fecha]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[fecha]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[condicion]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="250"
                       cachedName="condicion"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[condicion]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[condicion]" />
                     <inputColumn
                       refId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input].Columns[estatus]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="250"
                       cachedName="estatus"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[estatus]" />
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[estatus]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -297,7 +296,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -319,7 +318,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -341,7 +340,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -363,7 +362,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -385,7 +384,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -407,7 +406,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nombre]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nombre]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -429,7 +428,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -451,7 +450,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[actividad]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[actividad]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -473,7 +472,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[fecha]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[fecha]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -495,7 +494,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[condicion]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[condicion]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -517,7 +516,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[estatus]}</property>
+                          name="SourceInputColumnLineageID">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[estatus]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -544,6 +543,462 @@
                       refId="Package\LOADER\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\LOADER\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\LOADER\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\LOADER\Derived Column.Inputs[Derived Column Input].Columns[con_actividad]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="con_actividad"
+                      lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_actividad]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\LOADER\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\LOADER\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LOADER\Derived Column.Outputs[Derived Column Output].Columns[DC_ACTIVIAD]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="250"
+                      lineageId="Package\LOADER\Derived Column.Outputs[Derived Column Output].Columns[DC_ACTIVIAD]"
+                      name="DC_ACTIVIAD"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_actividad]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">con_actividad</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\LOADER\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\LOADER\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LOADER\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\LOADER\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\LOADER\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\LOADER\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\LOADER\DGII Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="DGII Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\LOADER\DGII Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[dgii_file_path]"
+                  connectionManagerRefId="Package.ConnectionManagers[dgii_file_path]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 4]"
+                      length="50"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]"
+                      name="Column 4"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 5]"
+                      length="50"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]"
+                      name="Column 5"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 6]"
+                      length="50"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]"
+                      name="Column 6"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 7]"
+                      length="50"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]"
+                      name="Column 7"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[id_rnc]"
+                      length="250"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]"
+                      name="id_rnc"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nombre]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nombre]"
+                      length="250"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nombre]"
+                      name="nombre"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nom_legal]"
+                      length="250"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]"
+                      name="nom_legal"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[actividad]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[actividad]"
+                      length="250"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[actividad]"
+                      name="actividad"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[fecha]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fecha]"
+                      length="250"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[fecha]"
+                      name="fecha"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[condicion]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[condicion]"
+                      length="250"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[condicion]"
+                      name="condicion"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[estatus]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[estatus]"
+                      length="250"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[estatus]"
+                      name="estatus"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 4]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Column 4" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 5]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Column 5" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 6]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Column 6" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 7]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Column 7" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[id_rnc]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="id_rnc" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nombre]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="nombre" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nom_legal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="nom_legal" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[actividad]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="actividad" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fecha]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="fecha" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[condicion]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="condicion" />
+                    <externalMetadataColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].ExternalColumns[estatus]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="estatus" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -790,371 +1245,383 @@
               </outputs>
             </component>
             <component
-              refId="Package\LOADER\Flat File Source"
-              componentClassID="Microsoft.FlatFileSource"
-              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Source"
-              localeId="1033"
-              name="Flat File Source"
+              refId="Package\LOADER\Lookup"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup"
               usesDispositions="true"
-              version="1">
+              version="6">
               <properties>
                 <property
-                  dataType="System.Boolean"
-                  description="Specifies whether zero-length columns are treated as null."
-                  name="RetainNulls">false</property>
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[DGII_RNC]</property>
                 <property
                   dataType="System.String"
-                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
-                  name="FileNameColumnName"></property>
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DGII_RNC]) [refTable]
+where [refTable].[ID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID" dataType="DT_STR" length="30" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="nombre_comercio" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="nombre_legal" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="actividad_comercial" dataType="DT_NTEXT" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="column5" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="column6" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="column7" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="column8" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="fecha" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="estatus" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="condicion" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\LOADER\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[dgii_file_path]"
-                  connectionManagerRefId="Package.ConnectionManagers[dgii_file_path]"
-                  name="FlatFileConnection" />
+                  refId="Package\LOADER\Lookup.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DB_CONN]"
+                  connectionManagerRefId="Package.ConnectionManagers[DB_CONN]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
               </connections>
+              <inputs>
+                <input
+                  refId="Package\LOADER\Lookup.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\LOADER\Lookup.Inputs[Lookup Input].Columns[id_rnc]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="id_rnc"
+                      lineageId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">ID</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
               <outputs>
                 <output
-                  refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output]"
-                  name="Flat File Source Output">
+                  refId="Package\LOADER\Lookup.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\LOADER\Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]"
+                      refId="Package\LOADER\Lookup.Outputs[Lookup Match Output].Columns[ID_lk]"
                       codePage="1252"
                       dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 4]"
-                      length="50"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]"
-                      name="Column 4"
+                      errorOrTruncationOperation="Copy Column"
+                      length="30"
+                      lineageId="Package\LOADER\Lookup.Outputs[Lookup Match Output].Columns[ID_lk]"
+                      name="ID_lk"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 5]"
-                      length="50"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]"
-                      name="Column 5"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 6]"
-                      length="50"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]"
-                      name="Column 6"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 7]"
-                      length="50"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]"
-                      name="Column 7"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[id_rnc]"
-                      length="250"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[id_rnc]"
-                      name="id_rnc"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nombre]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nombre]"
-                      length="250"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nombre]"
-                      name="nombre"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nom_legal]"
-                      length="250"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[nom_legal]"
-                      name="nom_legal"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[actividad]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[actividad]"
-                      length="250"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[actividad]"
-                      name="actividad"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[fecha]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fecha]"
-                      length="250"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[fecha]"
-                      name="fecha"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[condicion]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[condicion]"
-                      length="250"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[condicion]"
-                      name="condicion"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[estatus]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[estatus]"
-                      length="250"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].Columns[estatus]"
-                      name="estatus"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">ID</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 4]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="Column 4" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 5]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="Column 5" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 6]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="Column 6" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Column 7]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="Column 7" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[id_rnc]"
-                      codePage="1252"
-                      dataType="str"
-                      length="250"
-                      name="id_rnc" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nombre]"
-                      codePage="1252"
-                      dataType="str"
-                      length="250"
-                      name="nombre" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[nom_legal]"
-                      codePage="1252"
-                      dataType="str"
-                      length="250"
-                      name="nom_legal" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[actividad]"
-                      codePage="1252"
-                      dataType="str"
-                      length="250"
-                      name="actividad" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fecha]"
-                      codePage="1252"
-                      dataType="str"
-                      length="250"
-                      name="fecha" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[condicion]"
-                      codePage="1252"
-                      dataType="str"
-                      length="250"
-                      name="condicion" />
-                    <externalMetadataColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[estatus]"
-                      codePage="1252"
-                      dataType="str"
-                      length="250"
-                      name="estatus" />
-                  </externalMetadataColumns>
+                  <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Error Output]"
+                  refId="Package\LOADER\Lookup.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\LOADER\Lookup.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\LOADER\Lookup.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
                   isErrorOut="true"
-                  name="Flat File Source Error Output">
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\LOADER\Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      codePage="1252"
-                      dataType="text"
-                      description="Flat File Source Error Output Column"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      name="Flat File Source Error Output Column" />
-                    <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      refId="Package\LOADER\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LOADER\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LOADER\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\LOADER\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LOADER\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LOADER\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\LOADER\OLE DB Command"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
+              name="OLE DB Command"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[DGII_RNC]
+   SET [nombre_comercio] = ?
+      ,[nombre_legal] = ?
+      ,[actividad_comercial] = ?
+      ,[fecha] = ?
+      ,[estatus] = ?
+      ,[condicion] = ?
+ WHERE ID = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\LOADER\OLE DB Command.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DB_CONN]"
+                  connectionManagerRefId="Package.ConnectionManagers[DB_CONN]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input]"
+                  errorOrTruncationOperation="Command Execution"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Command Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].Columns[con_nombre]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="con_nombre"
+                      externalMetadataColumnId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_nombre]" />
+                    <inputColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].Columns[con_nom_legal]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="con_nom_legal"
+                      externalMetadataColumnId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_nom_legal]" />
+                    <inputColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].Columns[con_fecha]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="con_fecha"
+                      externalMetadataColumnId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_fecha]" />
+                    <inputColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].Columns[con_estatus]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="con_estatus"
+                      externalMetadataColumnId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_estatus]" />
+                    <inputColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].Columns[con_condicion]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="con_condicion"
+                      externalMetadataColumnId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_condicion]" />
+                    <inputColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].Columns[con_id_rnc]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="con_id_rnc"
+                      externalMetadataColumnId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      lineageId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output].Columns[con_id_rnc]" />
+                    <inputColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].Columns[DC_ACTIVIAD]"
+                      cachedDataType="wstr"
+                      cachedLength="250"
+                      cachedName="DC_ACTIVIAD"
+                      externalMetadataColumnId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\LOADER\Derived Column.Outputs[Derived Column Output].Columns[DC_ACTIVIAD]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      codePage="1252"
+                      dataType="text"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">193</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      codePage="1252"
+                      dataType="text"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">193</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      dataType="nText"
+                      name="Param_2">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">193</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      codePage="1252"
+                      dataType="text"
+                      name="Param_3">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">193</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      codePage="1252"
+                      dataType="text"
+                      name="Param_4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">193</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      codePage="1252"
+                      dataType="text"
+                      name="Param_5">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">193</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="Param_6">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\LOADER\OLE DB Command.Outputs[OLE DB Command Output]"
+                  exclusionGroup="1"
+                  name="OLE DB Command Output"
+                  synchronousInputId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\LOADER\OLE DB Command.Outputs[OLE DB Command Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Command Error Output"
+                  synchronousInputId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LOADER\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\LOADER\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\LOADER\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\LOADER\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1166,14 +1633,29 @@
           <paths>
             <path
               refId="Package\LOADER.Paths[Data Conversion Output]"
-              endId="Package\LOADER\dgii_loader.Inputs[OLE DB Destination Input]"
+              endId="Package\LOADER\Derived Column.Inputs[Derived Column Input]"
               name="Data Conversion Output"
               startId="Package\LOADER\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\LOADER.Paths[Derived Column Output]"
+              endId="Package\LOADER\Lookup.Inputs[Lookup Input]"
+              name="Derived Column Output"
+              startId="Package\LOADER\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\LOADER.Paths[Flat File Source Output]"
               endId="Package\LOADER\Data Conversion.Inputs[Data Conversion Input]"
               name="Flat File Source Output"
-              startId="Package\LOADER\Flat File Source.Outputs[Flat File Source Output]" />
+              startId="Package\LOADER\DGII Flat File Source.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\LOADER.Paths[Lookup Match Output]"
+              endId="Package\LOADER\OLE DB Command.Inputs[OLE DB Command Input]"
+              name="Lookup Match Output"
+              startId="Package\LOADER\Lookup.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\LOADER.Paths[Lookup No Match Output]"
+              endId="Package\LOADER\dgii_loader.Inputs[OLE DB Destination Input]"
+              name="Lookup No Match Output"
+              startId="Package\LOADER\Lookup.Outputs[Lookup No Match Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1182,6 +1664,7 @@
       DTS:refId="Package\TEMP LOADER"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{89d40f0b-76fe-4dec-906c-b69b404a6033}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2241,41 +2724,33 @@
     design-time-name="Package\LOADER">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="154.666666666667,42.6666666666667"
-          Id="Package\LOADER\Flat File Source"
-          TopLeft="69.9999989569188,49.2631588219936" />
+          Size="178.666666666667,42.6666666666667"
+          Id="Package\LOADER\DGII Flat File Source"
+          TopLeft="63.9999989569188,71.2631588219936" />
+        <NodeLayout
+          Size="132,42.6666666666667"
+          Id="Package\LOADER\dgii_loader"
+          TopLeft="834.624993136153,62.684212496736" />
         <NodeLayout
           Size="158.666666666667,42.6666666666667"
           Id="Package\LOADER\Data Conversion"
-          TopLeft="273.12499593012,73.1578955868275" />
+          TopLeft="67.12499593012,153.157895586828" />
         <EdgeLayout
           Id="Package\LOADER.Paths[Flat File Source Output]"
-          TopLeft="224.666665623585,70.5964921553269">
+          TopLeft="149.895830776853,113.92982548866">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="48.458330306535,23.8947367648339"
+              EndConnector="0,39.2280700981673"
               Start="0,0"
-              End="40.958330306535,23.8947367648339">
+              End="0,31.7280700981673">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="20.2291651532675,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="20.2291651532675,0"
-                    Point2="24.2291651532675,0"
-                    Point3="24.2291651532675,4" />
-                  <mssgle:LineSegment
-                    End="24.2291651532675,19.8947367648339" />
-                  <mssgle:CubicBezierSegment
-                    Point1="24.2291651532675,19.8947367648339"
-                    Point2="24.2291651532675,23.8947367648339"
-                    Point3="28.2291651532675,23.8947367648339" />
-                  <mssgle:LineSegment
-                    End="40.958330306535,23.8947367648339" />
+                    End="0,31.7280700981673" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2285,35 +2760,125 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="132,42.6666666666667"
-          Id="Package\LOADER\dgii_loader"
-          TopLeft="460.624993136153,104.684212496736" />
+          Size="114.666666666667,42.6666666666667"
+          Id="Package\LOADER\Lookup"
+          TopLeft="567,154" />
         <EdgeLayout
-          Id="Package\LOADER.Paths[Data Conversion Output]"
-          TopLeft="431.791662596787,94.4912289201608">
+          Id="Package\LOADER.Paths[Lookup No Match Output]"
+          TopLeft="624.333333333333,154">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="28.8333305393658,31.5263169099089"
+              EndConnector="276.29165980282,-48.6491208365974"
               Start="0,0"
-              End="21.3333305393658,31.5263169099089">
+              End="276.29165980282,-41.1491208365974">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="10.4166652696829,0" />
+                    End="0,-20.3245604182987" />
                   <mssgle:CubicBezierSegment
-                    Point1="10.4166652696829,0"
-                    Point2="14.4166652696829,0"
-                    Point3="14.4166652696829,4" />
+                    Point1="0,-20.3245604182987"
+                    Point2="0,-24.3245604182987"
+                    Point3="4,-24.3245604182987" />
                   <mssgle:LineSegment
-                    End="14.4166652696829,27.5263169099089" />
+                    End="272.29165980282,-24.3245604182987" />
                   <mssgle:CubicBezierSegment
-                    Point1="14.4166652696829,27.5263169099089"
-                    Point2="14.4166652696829,31.5263169099089"
-                    Point3="18.4166652696829,31.5263169099089" />
+                    Point1="272.29165980282,-24.3245604182987"
+                    Point2="276.29165980282,-24.3245604182987"
+                    Point3="276.29165980282,-28.3245604182987" />
                   <mssgle:LineSegment
-                    End="21.3333305393658,31.5263169099089" />
+                    End="276.29165980282,-41.1491208365974" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="82.3394431826599,-19.3245604182987,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170.666666666667,42.6666666666667"
+          Id="Package\LOADER\OLE DB Command"
+          TopLeft="826,244" />
+        <EdgeLayout
+          Id="Package\LOADER.Paths[Lookup Match Output]"
+          TopLeft="624.333333333333,196.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="287,47.3333333333333"
+              Start="0,0"
+              End="287,39.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.6666666666666" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.6666666666666"
+                    Point2="0,23.6666666666666"
+                    Point3="4,23.6666666666666" />
+                  <mssgle:LineSegment
+                    End="283,23.6666666666666" />
+                  <mssgle:CubicBezierSegment
+                    Point1="283,23.6666666666666"
+                    Point2="287,23.6666666666666"
+                    Point3="287,27.6666666666666" />
+                  <mssgle:LineSegment
+                    End="287,39.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="95.30861328125,28.6666666666666,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="156,42.6666666666667"
+          Id="Package\LOADER\Derived Column"
+          TopLeft="319,154" />
+        <EdgeLayout
+          Id="Package\LOADER.Paths[Data Conversion Output]"
+          TopLeft="225.791662596787,174.912281126747">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="93.2083374032134,0"
+              Start="0,0"
+              End="85.7083374032134,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="85.7083374032134,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LOADER.Paths[Derived Column Output]"
+          TopLeft="475,175.333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="91.9999999999999,0"
+              Start="0,0"
+              End="84.4999999999999,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="84.4999999999999,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2361,26 +2926,26 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="48.458330306535,23.8947367648339"
+              EndConnector="48.4583303065345,23.8947367648339"
               Start="0,0"
-              End="40.958330306535,23.8947367648339">
+              End="40.9583303065345,23.8947367648339">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="20.2291651532675,0" />
+                    End="20.2291651532673,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="20.2291651532675,0"
-                    Point2="24.2291651532675,0"
-                    Point3="24.2291651532675,4" />
+                    Point1="20.2291651532673,0"
+                    Point2="24.2291651532673,0"
+                    Point3="24.2291651532673,4" />
                   <mssgle:LineSegment
-                    End="24.2291651532675,19.8947367648339" />
+                    End="24.2291651532673,19.8947367648339" />
                   <mssgle:CubicBezierSegment
-                    Point1="24.2291651532675,19.8947367648339"
-                    Point2="24.2291651532675,23.8947367648339"
-                    Point3="28.2291651532675,23.8947367648339" />
+                    Point1="24.2291651532673,19.8947367648339"
+                    Point2="24.2291651532673,23.8947367648339"
+                    Point3="28.2291651532673,23.8947367648339" />
                   <mssgle:LineSegment
-                    End="40.958330306535,23.8947367648339" />
+                    End="40.9583303065345,23.8947367648339" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2436,6 +3001,29 @@
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LOADER\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DGII_RNC]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

@@ -1,0 +1,9 @@
+# ignore all logs
+*.log
+*.database
+*.ispac
+.ispac
+dgii_loader/obj/Development/dgii_loader.dtsx
+dgii_loader/bin/Development/dgii_loader.ispac
+dgii_loader/obj/Development/BuildLog.xml
+dgii_loader/obj/Development/dgii_loader.dtproj
